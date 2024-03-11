@@ -1,0 +1,2 @@
+#!/bin/sh
+/run/current-system/sw/bin/feh --no-fehbg --bg-max '/home/k/downloads/firefox/salt_flats_emulsion_lift_by_venusister_dfyr64j.png' 

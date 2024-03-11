@@ -1,0 +1,12 @@
+# change brightness
+XF86MonBrightness{Up,Down}  
+  brightnessctl s 10{+,-}  
+
+super + b
+  polybar-msg cmd toggle
+
+super + shift + n
+  bash ~/scripts/networking/nmtui.sh
+
+super + shift + p
+  flameshot gui
