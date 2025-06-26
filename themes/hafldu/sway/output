@@ -1,0 +1,10 @@
+### Output configuration
+
+# Monitor configuration
+set $laptop eDP-1
+output $laptop position 0 0 resolution 1920x1200@60Hz
+
+# Disable laptop screen when the lid is closed
+bindswitch --reload --locked lid:on  output $laptop disable
+bindswitch --reload --locked lid:off output $laptop enable
+

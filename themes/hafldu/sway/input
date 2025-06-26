@@ -1,0 +1,22 @@
+### Input configuration
+
+# Keyboard
+input type:keyboard {
+    # American + russian layout
+    xkb_layout us,ru
+    xkb_options caps:escape,grp:alt_shift_toggle
+
+    repeat_delay 250
+    repeat_rate 60
+}
+
+# Touchpad
+input type:touchpad {
+    tap enabled
+    natural_scroll enabled
+    pointer_accel 0.5 # set mouse sensitivity (between -1 and 1)
+}
+
+# Hide cursor after inactivity
+seat * hide_cursor 4000
+

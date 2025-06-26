@@ -1,0 +1,35 @@
+# Window borders settings
+default_border pixel 0
+title_align center
+
+# Gaps
+gaps              inner 8
+gaps              outer 0
+smart_gaps        off
+smart_borders     off
+hide_edge_borders smart
+
+# Focus following mouse 
+focus_follows_mouse yes
+
+# Carbonfox theme
+set $bg     #161616
+set $fg     #f2f4f8
+set $red    #ee5396
+set $green  #25be6a
+set $yellow #08bdba
+set $blue   #78a9ff
+set $purple #be95ff
+set $aqua   #33b1ff
+set $white  #dfdfe0
+set $gray   #282828
+set $lgray  #484848
+
+#class                  border  backgr  text    indicator  child_border
+client.focused          $fg     $fg     $bg     $purple    $fg
+client.focused_inactive $lgray  $lgray  $fg     $aqua      $lgray
+client.unfocused        $lgray  $lgray  $white  $aqua      $lgray
+client.urgent           $red    $red    $bg     $red       $red
+
+# Wallpaper
+output "*" bg ~/.wallpaper fill #000000

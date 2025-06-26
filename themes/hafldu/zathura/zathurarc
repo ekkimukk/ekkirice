@@ -1,0 +1,81 @@
+#
+# Zathura document viewer config file
+#
+
+# General options
+set selection-clipboard clipboard
+set window-title-basename true
+set statusbar-basename true
+set incremental-search true
+set first-page-column 1:1:2
+set guioptions shv
+
+# SyncTeX with neovim-remote
+set synctex true
+set synctex-editor-command  "nvr --remote-silent %f -c %l"
+
+# Mappings
+map [normal]       P feedkeys <F5>
+map [normal]       F feedkeys <F11>
+map [presentation] P feedkeys <F5>
+map [fullscreen]   F feedkeys <F11>
+
+# Auto-crop the pdf
+# map [normal] <A-c> exec "sh -c 'auto-crop-zathura \"$FILE\"'"
+
+# Open in the file manager
+map [normal] <A-f> exec "nemo '$FILE'"
+
+# Open with Xournal++ for annotations
+map [normal] <A-x> exec "xournalpp '$FILE'"
+
+# Open with Okular
+map [normal] <A-o> exec "okular '$FILE'"
+
+# Change background
+map <F10> set "default-bg \"#ffffff\""
+map <F9>  set "default-bg \"#161616\""
+map <F8>  set "first-page-column 1:1"
+# Reading mode
+map [normal] <A-r> feedkeys <F9><F10><F11><C-n>da
+
+
+#
+# Aestetic options
+#
+set font "Input Mono Condensed 10"
+
+# colors inspired by the carbonfox theme
+set default-bg              "#161616"
+set default-fg              "#f2f4f8"
+
+set statusbar-bg            "#161616"
+set statusbar-fg            "#f2f4f8"
+
+set inputbar-bg             "#161616"
+set inputbar-fg             "#f2f4f8"
+#
+set notification-bg         "#f2f4f8"
+set notification-fg         "#161616"
+
+set notification-error-bg   "#ee5396"
+set notification-error-fg   "#161616"
+
+set notification-warning-bg "#25be6a"
+set notification-warning-fg "#161616"
+
+set highlight-color         "#08bdda"
+set highlight-active-color  "#25be6a"
+set highlight-transparency  0.8
+
+set completion-bg           "#161616"
+set completion-fg           "#f2f4f8"
+
+set completion-highlight-fg "#161616"
+set completion-highlight-bg "#25be6a"
+
+set recolor-lightcolor      "#161616"
+set recolor-darkcolor       "#f2f4f8"
+
+set recolor                 "false"
+set recolor-keephue true
