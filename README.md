@@ -13,3 +13,5 @@ Skemmtilegur
 <h3 align="center"> [bspwm] Flugufrelsarinn </h3>
 <img src="./themes/flugufrelsarinn/flugufrelsarinn.png"/>
 
+<h1 align="center"> Section 2 </h1>
+And here there should be another ten or so different themes I hastily put together for my Acer Extensa 5220, HP 15-bs144ur, Digma Fortis M 14, and Lenovo Xiaoxin 14 that I'm not really proud of but let’s be honest — my Arch and Gentoo setups change too often.
