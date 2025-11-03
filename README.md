@@ -1,4 +1,3 @@
-# ekkirice
 <h2 align="center"> Skemmtilegur screenshots </h2>
 
 <h3 align="center"> [sway] Eg anda </h3>
