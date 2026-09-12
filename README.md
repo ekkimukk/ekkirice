@@ -1,5 +1,20 @@
 <h2 align="center"> Skemmtilegur screenshots </h2>
 
+<h3 align="center"> [sway] Pisik </h3>
+<img src="./.github/assets/pisik.png"/>
+
+<h3 align="center"> [sway] Cutouts </h3>
+<img src="./.github/assets/cutouts.png"/>
+
+<h3 align="center"> [sway] Dagestan </h3>
+<img src="./.github/assets/dagestan.png"/>
+
+<h3 align="center"> [sway] Viaje a Sri Lanka </h3>
+<img src="./.github/assets/viajeasrilanka.png"/>
+
+<h3 align="center"> [sway] Rahat </h3>
+<img src="./.github/assets/rahat.png"/>
+
 <h3 align="center"> [sway] Eg anda </h3>
 <img src="./themes/eganda/eganda1.png"/>
 
